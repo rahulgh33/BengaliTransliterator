@@ -1,8 +1,9 @@
 # BengaliTransliterator
-Transliterates Bengali text by the Wiktionary scheme 
+Transliterates Bengali text by the [Wiktionary scheme](https://en.wiktionary.org/wiki/Wiktionary:Bengali_transliteration):
 
 Uses local text files as input and outputs something like this:
-  - **Bengali**:হে আমাদের স্বর্গস্থ পিতা 
+- Lord's Prayer
+  - **Bengali**: হে আমাদের স্বর্গস্থ পিতা 
 তোমার নাম পূজিত হউক 
 তোমার রাজ্য আসুক 
 তোমার ইচ্ছা যেমন স্বর্গে 
@@ -25,9 +26,7 @@ kint mônder hāt theke uddhār kôro
 rājj pôrākrôm o môhimā juge juge tomār 
 āmen 
 
-- What is "agnimile.txt"?
-  - The first 3 lines of the Rigveda. Includes pitch accent and punctuation, and thus is an example of a text file that can be used with VedicTransliterator.py
-
-- What is "nasadiya.txt"
-  - The "Hymn of Creation", a famous contemplative hymn in Rigveda (10:129) about the origin of the universe. Does not include pitch accent within the text file nor punctuation, example of a file that can be used with HKandIASTTransliterator.py
-  
+- What is "LordsPrayer.txt"?
+  - The Lord's Prayer in Bengali. Common linguistic example.
+- What is "rabindranath.txt"?
+  - A famous poem from the Bengali polymath Rabindranath Tagore, "E monihar amay".
