@@ -1,6 +1,6 @@
 # BengaliTransliterator
 Transliterates Bengali text by the [Wiktionary scheme](https://en.wiktionary.org/wiki/Wiktionary:Bengali_transliteration):
-
+- Note: This transliteration scheme is **NOT** phonetic.
 Uses local text files as input and outputs something like this:
 - Lord's Prayer
   - **Bengali**: হে আমাদের স্বর্গস্থ পিতা 
