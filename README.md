@@ -29,4 +29,4 @@ rājj pôrākrôm o môhimā juge juge tomār
 - What is "LordsPrayer.txt"?
   - The Lord's Prayer in Bengali. A common linguistic example.
 - What is "rabindranath.txt"?
-  - A famous poem from the Bengali polymath Rabindranath Tagore, "E monihar amay".
+  - A famous poem from the Bengali polymath Rabindranath Tagore, "E monihar amay". Another example. 
