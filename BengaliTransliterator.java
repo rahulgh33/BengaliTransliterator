@@ -5,6 +5,7 @@ import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
 public class BengaliTransliterator {
+	//Creating a hashmap from the csv file in ScriptChart for Bengali to Roman letters.
 	private HashMap<String, String> table;
 	
 	public static void main(String[] args) {
@@ -34,6 +35,7 @@ public class BengaliTransliterator {
 			return null;
 		}
 	}
+	//Function returning the output of transliterateWord on each word in the file line by line
 	public void transliterate(String fileName) {
 		try {
 			String bengLine = "Bengali: ";
@@ -60,6 +62,7 @@ public class BengaliTransliterator {
 		}
 		
 	}
+	//Returns transliterated word from bengali word
 	public String transliterateWord(String word) {
 		String english = "";
 		int length =  word.length();
@@ -70,10 +73,12 @@ public class BengaliTransliterator {
 			String hcode = new String("0x" + Integer.toHexString(ucode).toUpperCase());
 			if(isLetter(ucode)) {
 				String transLetter = (String) table.get(hcode);
+				//Checks if letter is at the end
 				if(i + 1 < length) {
 					char nextCh = word.charAt(i+1);
 					int nextUCode = (int) nextCh;
 					String nextHCode = new String("0x" + Integer.toHexString(nextUCode).toUpperCase());
+					//Checks next letter to see if the inherent vowel should be added or not
 					if(isLetter(nextUCode)) {
 						if(isVowel(ucode)) {
 							english+=transLetter;
@@ -188,6 +193,7 @@ public class BengaliTransliterator {
 		}
 		return english;
 	}
+	//Set of functions returning if the word is in a specified class of letters or not 
 	public boolean isLetter(int ucode) {
 		int start = 2437;
 		int end = 2489;
