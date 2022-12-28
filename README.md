@@ -25,8 +25,3 @@ temôni prithibīteo pūrṇ hôuk
 kint mônder hāt theke uddhār kôro 
 rājj pôrākrôm o môhimā juge juge tomār 
 āmen 
-
-- What is "LordsPrayer.txt"?
-  - The [Lord's Prayer](https://en.wikipedia.org/wiki/Lord%27s_Prayer) in Bengali. A common example text selection used in linguistics.
-- What is "rabindranath.txt"?
-  - A famous poem from the Bengali writer [Rabindranath Tagore](https://en.wikipedia.org/wiki/Rabindranath_Tagore), "E monihar amay"(This Bejeweled Necklace). An example of older Bengali written in [Sādhu Bhāṣā](https://en.wikipedia.org/wiki/S%C4%81dhu_Bh%C4%81%E1%B9%A3%C4%81). 
